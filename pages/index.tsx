@@ -19,14 +19,25 @@ const Home: NextPage = () => {
 
       <main className={styles.Main}>
 
-
         <div className={styles.Grid}>
-          <a href="https://twitter.com/taylormendes" className={styles.Card}>Canal de Vendas <ShareIcon /></a>
-          <a href="https://twitter.com/taylormendes" className={styles.Card}>Contato paa Publicidade <ShareIcon /></a>
-          <a href="https://twitter.com/taylormendes" className={styles.Card}>1XBET (bonus130porcento) <ShareIcon /></a>
-          <a href="https://twitter.com/taylormendes" className={styles.Card}>Canal FREE <ShareIcon /></a>
-          <a href="https://twitter.com/taylormendes" className={styles.Card}>Twitter <ShareIcon /></a>
-          <a href="https://twitter.com/taylormendes" className={styles.Card}>Facebook <ShareIcon /></a>
+          <Link href="/teste">
+            <a className={styles.Card}>Canal de Vendas <ShareIcon /></a>
+          </Link>
+          <Link href="https://www.instagram.com/taylorief/">
+            <a className={styles.Card}>Contato paa Publicidade <ShareIcon /></a>
+          </Link>
+          <Link href="https://www.instagram.com/taylorief/">
+            <a className={styles.Card}>1XBET (bonus130porcento) <ShareIcon /></a>
+          </Link>
+          <Link href="https://www.instagram.com/taylorief/">
+            <a className={styles.Card}>Canal FREE <ShareIcon /></a>
+          </Link>
+          <Link href="https://www.instagram.com/taylorief/">
+            <a className={styles.Card}>Twitter <ShareIcon /></a>
+          </Link>
+          <Link href="https://www.instagram.com/taylorief/">
+            <a className={styles.Card}>Facebook <ShareIcon /></a>
+          </Link>
         </div>
 
         {/* <InfoIcon className={styles.InfoIcon} width="36px" height="36px" /> */}
