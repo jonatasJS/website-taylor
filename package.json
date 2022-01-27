@@ -8,9 +8,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/node-sass": "^4.11.2",
+    "@types/nprogress": "^0.2.0",
+    "@types/react-icons": "^3.0.0",
+    "@types/sass": "^1.43.1",
+    "@zeit/next-sass": "^1.0.1",
     "next": "12.0.8",
+    "node-sass": "^7.0.1",
+    "nprogress": "^0.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "sass": "^1.49.0"
   },
   "devDependencies": {
     "@types/node": "17.0.12",
