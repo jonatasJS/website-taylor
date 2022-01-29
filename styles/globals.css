@@ -22,6 +22,7 @@ a {
 }
 
 *:focus {
+<<<<<<< HEAD
   outline: none;
 }
 
@@ -31,4 +32,7 @@ a {
   align-items: center;
   width: 100vw;
   height: 100vh;
+=======
+    outline: none;
+>>>>>>> 9ad306a6a5af7a4106eab3dd0e97344436f9db21
 }
