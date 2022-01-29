@@ -1,13 +1,28 @@
 import Link from 'next/link';
+import { useState } from 'react';
 import styles from './styles.module.scss';
 
 function Footer() {
+  const [ link, setLink ] = useState('https://github.com/jonatasJS');
+  const [ linkName, setLinkName ] = useState('jonatasJS');
+
+  setInterval(() => {
+    if(link === 'https://github.com/jonatasJS') {
+      setLink('https://jonatas.app/');
+      setLinkName('Next Rocket');
+    }
+    else {
+      setLink('https://github.com/jonatasJS');
+      setLinkName('jonatasJS');
+    }
+  }, 5000);
+
   return (
     <footer className={styles.Footer}>
-        <p>
+        <p spellCheck="false">
           Powered by
           <span className={styles.Logo}>
-            <Link href="https://github.com/jonatasJS"><a target="_blank">Jônatas Souza Soares</a></Link>
+            <Link href={link}><a target="_blank">{linkName}</a></Link>
           </span>
         </p>
       </footer>

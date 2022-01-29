@@ -13,6 +13,7 @@
     text-decoration: none;
     height: 1em;
     margin-left: 0.5rem;
+    animation: flicker 1.5s infinite alternate;
 
     :hover,
     :focus,
@@ -23,12 +24,32 @@
   }
 }
 
+@keyframes flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #0070f3;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+    box-shadow: none;
+  }
+}
+
 @media (max-width: 320px) {
   .Footer {
     margin-top: 2rem;
     max-width: 90%;
     justify-content: center;
-    font-size: .7rem;
+    font-size: 0.7rem;
     padding: 1rem 0;
   }
 }
