@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import styles from './styles.module.scss';
 
@@ -7,7 +7,14 @@ function Profile() {
     <div className={styles.Profile}>
       <Link href="/">
         <a>
-          <Image className={styles.Photo} width="150" height="150" src="/images/Logo-Photo.jpg" alt="Taylor" />
+          <img
+            className={styles.Photo}
+            width={150}
+            height={150}
+            src="/images/Logo-Photo.jpg"
+            alt="Iefutebol"
+            title="Iefutebol"
+          />
         </a>
       </Link>
       <h1 className={styles.Title}>
