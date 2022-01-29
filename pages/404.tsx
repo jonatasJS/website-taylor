@@ -200,7 +200,7 @@ function PageErr404() {
       </style>
       <nav className="shelf">
         <Link href="/"><a className="book home-page">Home page</a></Link>
-        <Link href="https://jonatas.app/aboutus"><a className="book about-us">About us</a></Link>
+        <Link href="https://jonatas.app/about"><a className="book about-us">About us</a></Link>
         <Link href="https://jonatas.app/contact"><a className="book contact">Contact us</a></Link>
 
         <span className="book not-found"></span>
