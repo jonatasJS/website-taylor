@@ -2,7 +2,7 @@ import Grid from '../Grid';
 
 // import { AiOutlineInfoCircle as InfoIcon } from 'react-icons/ai';
 
-import styles from '../../styles/Home.module.scss';
+import styles from './styles.module.scss';
 
 function Main() {
   return (

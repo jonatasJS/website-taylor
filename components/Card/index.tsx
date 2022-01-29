@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { BiShareAlt as ShareIcon } from 'react-icons/bi';
 
-import styles from '../../styles/Home.module.scss';
+import styles from './styles.module.scss';
 
 interface CardProps {
   href: string;
@@ -12,7 +12,7 @@ interface CardProps {
 function Card({ href, title }: CardProps) {
   return (
     <Link href={href}>
-      <a className={styles.Card}>{title} <ShareIcon /></a>
+      <a target="_blank" className={styles.Card}>{title} <ShareIcon /></a>
     </Link>
   )
 }

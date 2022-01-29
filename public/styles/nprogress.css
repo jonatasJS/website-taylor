@@ -20,6 +20,7 @@
   display: block;
   position: absolute;
   right: 0px;
+  z-index: 1031;
   width: 100px;
   height: 100%;
   box-shadow: 0 0 10px #0070f3, 0 0 5px #0070f3;
@@ -31,7 +32,7 @@
 }
 
 /* Remove these to get rid of the spinner */
-#nprogress .spinner {
+/* #nprogress .spinner {
   display: block;
   position: fixed;
   z-index: 1031;
@@ -51,7 +52,7 @@
 
   -webkit-animation: nprogress-spinner 400ms linear infinite;
           animation: nprogress-spinner 400ms linear infinite;
-}
+} */
 
 .nprogress-custom-parent {
   overflow: hidden;
