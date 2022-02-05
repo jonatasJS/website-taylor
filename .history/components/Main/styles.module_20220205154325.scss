@@ -1,0 +1,23 @@
+.Main {
+  max-width: 1160px;
+  min-width: 288px;
+  max-height: 100%;
+
+  // .InfoIcon {
+  //   margin-bottom: 10px;
+  //   margin-left: calc(-2rem * 5);
+  //   height: 1.3em;
+  //   width: 1.3em;
+  //   cursor: pointer;
+  // }
+}
+
+@media (max-width: 750px) {
+  .Main {
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // gap: 10px;
+  }
+}

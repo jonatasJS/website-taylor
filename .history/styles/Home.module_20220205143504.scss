@@ -1,0 +1,16 @@
+.Container {
+  display: flex;
+  width
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: scale(2rem);
+}
+
+
+
+@media (max-width: 320px) {
+  .Container {
+    padding: 1rem;
+  }
+}
